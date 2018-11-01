@@ -1,0 +1,54 @@
+#logo {
+    float: left;
+    width: 250px;
+    height: 80px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    padding:5px;
+
+  }
+  #logo:hover,
+input[type=submit]:hover {
+  background: #5e7f7e;
+}
+
+  .navbar{
+      height:60px;
+  }
+
+  nav a {
+    border-top:25px;
+      border-top-color: #4aaaa5;
+      text-align: center;
+      color: bisque;
+      height: 50px;
+  }
+
+  nav  {
+    border-top: 8px solid #4aaaa5;
+    clear:both;
+  }
+  
+/* index.html */
+.page-header {
+    margin-top: 50px;
+}
+
+nav.container {
+    border-top-color: bisque
+}
+
+  #contact {
+      margin-top: 50px
+
+  }
+
+  section {
+      display:flex;
+  }

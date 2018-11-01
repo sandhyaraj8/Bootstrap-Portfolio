@@ -4,128 +4,118 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Contact</title>
     <meta name="description" content="Roughly 155 characters">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
 
+    <!-- 
+    CSS Links. 
+    Note that your mystyle.css file comes after the bootstrap link,
+    this allows you to overwrite bootstrap styles
+  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-    <!-- <nav class="navbar navbar-default" navbar-dark bg-info> -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+    <!-- Responsive Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-button">
+        <div class="container">
 
-        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Sandhya Pradeshik</a>
-            </div>
+            <a class="navbar-brand" href="index.html" id="logo">Sandhya </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+            <!-- These are the items that get collapsed into your mobile menu -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
 
-    <div class="border border-dark d-flex ">
-  <div class="d-flex flex-column flex-md-row justify-content-between">
-        <!-- Related Projects Row -->
-       <div class="row text-center" id="portfolio-div">
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-left  text-secondary mb-0">portfolio</h2>
+            <hr class="star-dark mb-3">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-sm-6">
+                                <a href="#">
+                                    <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bahamas_2.jpg" class="img-responsive"
+                                        style="height:250px; width:250px;"  alt="">
+                                </a>
+                                <h5>St.Martin</h5>
+                            </div>
+                            <div class=" col-sm-6 ">
+                                <a href="#">
+                                        <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bermuda.jpg" class="img-responsive"
+                                        style="height:250px; width:250px;" alt="" >
+                                </a>
+                                <h5>St.Martin</h5>
+                            </div>
+                            <div class="row">
+                                <div class=" col-sm-6">
+                                    <a href="#">
+                                        <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bahamas_2.jpg" class="img-responsive"
+                                             style="height:250px; width:250px;"  alt="">
+                                    </a>
+                                    <h5>St.Martin</h5>
+                                </div>
+                                <div class=" col-sm-6 ">
+                                    <a href="#">
+                                        <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bermuda.jpg" class="img-responsive"
+                                            style="height:250px; width:250px;" alt="" >
+                                    </a>
+                                    <h5>St.Martin</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col-sm-8 ">
+                                    <a href="#">
+                                        <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bermuda.jpg" class="img-responsive"
+                                            style="height:250px; width:250px;" alt="" >
+                                    </a>
+                                    <h5>St.Martin</h5>
+                                </div>
 
-                <!-- <div     class ="border border-dark d-flex justify-content-around"></div> -->
-        <h3 class="my-4" >Porfolio</h3>
- 
-        <div class="row">
-                <div class=" col-sm-2">
+                                <div class=" col-sm-6 ">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-  
-          <div class=" col-sm-2">
-            <a href="#">
-              <img class="img-fluid" src="../Basic-Portfolio/Assets/images/St_martin.jpg" class="img-responsive" style="height:250px; width:250px;" alt="St.Martin">
-            </a>
-            <h3>St.Martin</h3>
-          </div>
-  
-          <div class=" col-sm-2 ">
-            <a href="#">
-              <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bermuda.jpg" class="img-responsive" style="height:250px; width:250px;"  alt=""alt="Bermuda">
-            </a>
-            <h3>St.Martin</h3>
-          </div>
-
+            </div>
         </div>
-        <!-- /.row -->
-        <div class="row text-center" id="portfolio-div"></div>
-          <div class="row">
-                <div class=" col-sm-2">
-                    </div>
-      
-  
-          <div class=" col-sm-2">
-            <a href="#">
-              <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bahamas_2.jpg" class="img-responsive" style="height:250px; width:250px;" alt="Bahamas">
-            </a>
-            <h3>St.Martin</h3>
-          </div>
-  
-          <div class=" col-sm-2">
-            <a href="#">
-              <img class="img-fluid" src="../Basic-Portfolio/Assets/images/puerto-rico.jpg" class="img-responsive" style="height:250px; width:250px;" alt="Bahamas">
-            </a>
-            <h3>St.Martin</h3>
-          </div>
-
-          <div class="row text-center" id="portfolio-div"></div>
-          <div class="row">
-                <div class=" col-sm-2">
-                    </div>
-      
-  
-          <div class=" col-sm-2">
-            <a href="#">
-              <img class="img-fluid" src="../Basic-Portfolio/Assets/images/bahamas_2.jpg" class="img-responsive" style="height:250px; width:250px;" alt="Bahamas">
-            </a>
-            <h3>St.Martin</h3>
-          </div>
-        </div>
-        </div>
-        <!-- /.row -->
-  
-      </div>
-    </div>
-</div>
+    </section>
+   
 
     </div>
-      <!-- /.container -->
-      <nav class="navbar fixed-bottom navbar-dark bg-primary">
-            <a class="navbar-brand" href="#!">Fixed bottom</a>
-          </nav>
-    
-        
+    <!-- /.container -->
+    <nav class="navbar fixed-bottom navbar-danger bg-secondary" Id="footer">
+        <a class="navbar-brand" href="#!">copyright@</a>
+    </nav>
 
-
-
-    
-
-
+    <!-- javascript files needed for bootstrap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
-</html> -->
+</html>

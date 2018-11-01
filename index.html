@@ -4,101 +4,124 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About </title>
+    <title>Contact</title>
     <meta name="description" content="Roughly 155 characters">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    <!-- 
+    CSS Links. 
+    Note that your mystyle.css file comes after the bootstrap link,
+    this allows you to overwrite bootstrap styles
+  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" >
 
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                            aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Sandhya Pradeshik</a>
+    <!-- Responsive Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-button">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" href="index.html" id="logo">Sandhya </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- These are the items that get collapsed into your mobile menu -->
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-left  text-secondary mb-0">About Me</h2>
+            <hr class="star-dark mb-3">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="container">
+
+
+
+                        <!-- Portfolio Item Row -->
+                        <div class="row">
+
+                            <div class="col-md-4">
+                                <!-- <img class="img-fluid" src="http://placehold.it/750x500" alt=""> -->
+                                <img class="img-fluid" src="..\Basic-Portfolio\Assets\images\San_pic.jpg" alt="My pic">
+
+                            </div>
+
+                            <div class="col-md-8">
+                                <h3 class="my-3">Project Description</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+                                    gravida
+                                    pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et,
+                                    interdum nec metus.
+                                    Mauris ultricies, justo eu convallis placerat, felis enim.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt totam odio
+                                    obcaecati!
+                                    Magni, veniam voluptas omnis animi quia nam maxime vel rerum et nulla soluta autem,
+                                    assumenda
+                                    tenetur officiis.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio
+                                    accusamus
+                                    atque, maiores adipisci, excepturi soluta recusandae deleniti, aut quisquam eveniet
+                                    esse. Illo
+                                    ullam soluta voluptates odio, expedita hic iusto.lorem
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptas ipsam
+                                    animi
+                                    doloribus, soluta molestiae harum ipsa dolore optio aliquid aliquam! Quae aliquam
+                                    eligendi sint
+                                    sit alias, in aliquid totam.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsum eligendi at
+                                    vel saepe
+                                    consequatur voluptas repudiandae, dolor vero ea id dolores enim! Dignissimos
+                                    exercitationem
+                                    aspernatur quisquam corrupti iste rerum.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae enim dolores
+                                    nam omnis
+                                    vel voluptas non excepturi totam similique saepe vitae quisquam, delectus modi
+                                    adipisci esse,
+                                    tenetur dolor, error dolorum.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus, culpa
+                                    nobis
+                                    necessitatibus autem voluptate nihil sunt placeat nulla iusto sit reiciendis id cum
+                                    iste
+                                    quaerat! Non, quisquam! Nobis, pariatur.
+
+                                </p>
+
+                            </div>
+                        </div>
                     </div>
-        
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        
-        
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="page-header">
-                    <h1>About me</h1>
                 </div>
             </div>
         </div>
+    </section>
+    </div>
+    </div>
 
-        <div class="container">
+    <nav class="navbar fixed-bottom navbar-danger bg-secondary" Id="footer">
+        <a class="navbar-brand" href="#!">copyright@</a>
+    </nav>
 
-                
-            
-                <!-- Portfolio Item Row -->
-                <div class="row">
-            
-                  <div class="col-md-3">
-                    <!-- <img class="img-fluid" src="http://placehold.it/750x500" alt=""> -->
-                    <img class="align-self-start mr-3" src="..\Basic-Portfolio\Assets\images\San_pic.jpg" alt="My pic">
-            
-                  </div>
-            
-                  <div class="col-md-6">
-                    <h3 class="my-3">Project Description</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt totam odio obcaecati! Magni, veniam voluptas omnis animi quia nam maxime vel rerum et nulla soluta autem, assumenda tenetur officiis.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio accusamus atque, maiores adipisci, excepturi soluta recusandae deleniti, aut quisquam eveniet esse. Illo ullam soluta voluptates odio, expedita hic iusto.lorem
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptas ipsam animi doloribus, soluta molestiae harum ipsa dolore optio aliquid aliquam! Quae aliquam eligendi sint sit alias, in aliquid totam.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ipsum eligendi at vel saepe consequatur voluptas repudiandae, dolor vero ea id dolores enim! Dignissimos exercitationem aspernatur quisquam corrupti iste rerum.
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae enim dolores nam omnis vel voluptas non excepturi totam similique saepe vitae quisquam, delectus modi adipisci esse, tenetur dolor, error dolorum.
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus minus, culpa nobis necessitatibus autem voluptate nihil sunt placeat nulla iusto sit reiciendis id cum iste quaerat! Non, quisquam! Nobis, pariatur.
-            
-                    </p>
-                    
-                  </div>
-            
-                </div>
-
-            
-            
-            </div>
-            
-              <nav class="navbar fixed-bottom navbar-dark bg-primary">
-                <a class="navbar-brand" href="#!">Fixed bottom</a>
-              </nav>
-            
-        
-
-
-
-    
-
-
+    <!-- javascript files needed for bootstrap -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
