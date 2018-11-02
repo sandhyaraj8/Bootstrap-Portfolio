@@ -31,7 +31,6 @@ input[type=submit]:hover {
   }
 
   nav  {
-    border-top: 8px solid #4aaaa5;
     clear:both;
   }
   
@@ -51,4 +50,8 @@ nav.container {
 
   section {
       display:flex;
+  }
+  #footer {
+    border-top: 8px solid #4aaaa5;
+
   }
